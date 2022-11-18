@@ -1,0 +1,13 @@
+@import "_vars";
+
+.primary-button{
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    font-size: var(--md);
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}

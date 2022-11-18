@@ -1,0 +1,14 @@
+@import "_vars";
+
+.price{
+    font-size: var(--md);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.description{
+    font-size: var(--md);
+    color: var(--very-light-pink);
+    margin-top: 3px;
+}

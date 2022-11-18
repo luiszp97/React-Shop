@@ -1,0 +1,41 @@
+@import "../../styles/_vars.scss";
+
+.shopping-card
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+
+    border: 2px solid var(--text-input-field);
+}
+.shopping-card figure
+{
+    margin: 0;
+}
+.shopping-card figure img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+
+    padding: 5px;
+}
+
+.shopping-card:hover{
+    background-color: var(--text-input-field);
+    border: 2px solid #d6d6d6;
+    cursor: pointer;
+}
+.shopping-card p:nth-child(2)
+{
+    color: var(--very-light-pink);
+}
+.shopping-card p:nth-child(3)
+{
+    font-size: var(--md);
+    font-weight: bold;
+    gap: 0;
+}

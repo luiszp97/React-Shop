@@ -1,0 +1,25 @@
+@import "../../styles/_vars";
+
+.order p:nth-child(1)
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.order p:nth-child(2)
+{
+   text-align: end;
+   font-weight: bold;
+   padding: 0 20px;
+}
+.order span:nth-child(1)
+{
+    font-size: var(--md);
+    font-weight: bold;
+}
+.order span:nth-child(2)
+{
+    font-size: var(--sm);
+    color: var(--very-light-pink);
+    margin-top: 5px;
+}

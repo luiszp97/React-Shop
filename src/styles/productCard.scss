@@ -1,0 +1,35 @@
+@import "_vars";
+
+.product-card{
+    width: var(--card-width);
+    cursor: pointer;
+}
+
+.product-card img{
+    width: var(--card-width);
+    height: var(--card-height);
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width: 640px) {
+
+.product-card img{
+    width: 150px;
+    height: 140px;
+}
+
+.product-info figure img{
+    width: 45px;
+    height: 45px;
+                       
+    }
+}
+

@@ -1,0 +1,21 @@
+@import "_vars";
+
+.cards-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 26px;
+    place-content: center;
+}
+       
+@media (max-width: 640px) {
+:root{
+    --card-width: 150px;
+    --card-height: 140px;
+}
+
+.cards-container{
+    grid-template-columns: repeat(auto-fill, 140px);
+}
+
+}

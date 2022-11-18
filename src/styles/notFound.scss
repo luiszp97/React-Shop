@@ -1,0 +1,21 @@
+@import "_vars";
+
+.notFound-Container{
+    width: 100%;
+    height: calc(100vh - 110px);
+    display: grid;
+    place-items: center;
+}
+
+.contain-container{
+    width: 300px;
+}
+
+h2{
+  text-align: center;  
+}
+.error-msg{
+    color: var(--very-light-pink);
+    text-align: center;
+}
+
